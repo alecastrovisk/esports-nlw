@@ -57,7 +57,10 @@ function App() {
 
         <Dialog.Portal>
           <Dialog.Overlay className="bg-black/60 inset-0 fixed" />
-          <Dialog.Content className="fixed bg-[#2A2634] py-8 px-10 text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg w-[480px] shadow-lg shadow-black/25">
+          <Dialog.Content
+            className="fixed bg-[#2A2634] py-8 px-10 text-white top-1/2 
+            left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg w-[480px] shadow-lg shadow-black/25">
+
             <Dialog.Title className="text-3xl text-white font-black">
               Publique um anúncio
             </Dialog.Title>
@@ -106,44 +109,44 @@ function App() {
                     <button
                       title="Domingo"
                       className="w-8 h-8 rounded bg-zinc-900"
-                      >
-                        D
+                    >
+                      D
                     </button>
                     <button
                       title="Segunda"
                       className="w-8 h-8 rounded bg-zinc-900"
-                      >
-                        S
+                    >
+                      S
                     </button>
                     <button
                       title="Terça"
                       className="w-8 h-8 rounded bg-zinc-900"
-                      >
-                        T
+                    >
+                      T
                     </button>
                     <button
                       title="Quarta"
                       className="w-8 h-8 rounded bg-zinc-900"
-                      >
-                        Q
+                    >
+                      Q
                     </button>
                     <button
                       title="Quinta"
                       className="w-8 h-8 rounded bg-zinc-900"
-                      >
-                        Q
+                    >
+                      Q
                     </button>
                     <button
                       title="Sexta"
                       className="w-8 h-8 rounded bg-zinc-900"
-                      >
-                        S
+                    >
+                      S
                     </button>
                     <button
                       title="Sábado"
                       className="w-8 h-8 rounded bg-zinc-900"
-                      >
-                        S
+                    >
+                      S
                     </button>
 
                   </div>
